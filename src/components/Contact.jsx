@@ -16,7 +16,7 @@ function Contact() {
          <Title id="contact">Get In Contact</Title>
 
          {/* <div className="flex flex-col mb-10 mx-auto"> */}
-         <div className=" justify-center items-center ">
+         {/* <div className=" justify-center items-center ">
             <form
                action="https://getform.io/f/bolmpdea"
                method='POST'
@@ -46,9 +46,9 @@ function Contact() {
                   Send
                </button>
             </form>
-         </div>
+         </div> */}
 
-         <div className="dark:border-white border border-stone-900 rounded-lg p-6 mb-6">
+         <div className="dark:border-white border border-stone-900 rounded-lg p-3 mb-2">
             <h2 className="text-xl font-semibold mb-4">Direct Message</h2>
             <div className="flex flex-col gap-4">
 
@@ -86,7 +86,7 @@ function Contact() {
          </div>
 
          {/* Networks */}
-         <div className="dark:border-white border border-stone-900 rounded-lg p-6 mb-6">
+         <div className="dark:border-white border border-stone-900 rounded-lg p-3 mb-2">
             <h2 className="text-xl font-semibold mb-4">Networks</h2>
             <div className="flex flex-col gap-4">
 
@@ -98,9 +98,9 @@ function Contact() {
                         <span className='hover:underline'>LinkedIn</span>
                      </div>
                      <p className="text-sm text-gray-300">
-                        Professional network
+                        Professional Network
                         <br />
-                        500+ connections
+                        600+ connections
                      </p>
                   </div>
                </a>
@@ -139,31 +139,21 @@ function Contact() {
          </div>
 
          {/* Status */}
-         <div className="dark:border-white border border-stone-900 rounded-lg p-6">
-            <h2 className="text-xl font-semibold mb-4">Status</h2>
+         <div className="dark:border-white border border-stone-900 rounded-lg p-3">
+            <h2 className="text-xl font-semibold mb-2">Availability</h2>
             <div className="flex flex-col gap-4">
-               {/* Current Role */}
-               <div>
-                  <p className="text-sm">Current Role</p>
-                  <h3 className="text-lg font-semibold">Data Engineer</h3>
-                  <p className="text-sm">Personalised Projects</p>
-               </div>
 
                {/* Availability */}
                <div>
-                  <p className="text-sm">Availability</p>
                   <span className="text-green-500 font-semibold">Open to opportunities</span>
-               </div>
-
-               {/* Response Time */}
-               <div>
-                  <p className="text-sm">Response Time - within 24hrs</p>
                </div>
 
                {/* Time Zone */}
                <div>
-                  <p className="text-sm">Time Zone</p>
+                  <p className="text-sm">Time Zone:{" "}
                   <span className="text-sm">East Africa Time (EAT)</span>
+                  </p>
+                  <p className="text-sm">Response Time - within 24hrs</p>
                </div>
             </div>
          </div>
