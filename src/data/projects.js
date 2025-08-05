@@ -1,5 +1,5 @@
 import { FaAws, FaPython, FaDatabase } from "react-icons/fa";
-import { SiAmazons3, SiSnowflake, SiApachekafka, SiApacheairflow, SiPostgresql } from "react-icons/si";
+import { SiAmazons3, SiSnowflake, SiApachekafka, SiApacheairflow, SiApachehadoop } from "react-icons/si";
 import { TbBrandDatabricks, TbDeviceAnalytics } from "react-icons/tb";
 import { DiMsqlServer } from "react-icons/di";
 import { MdAnalytics } from "react-icons/md";
@@ -14,7 +14,8 @@ export default [
             { name: 'Snowflake', icon: SiSnowflake },
             { name: 'Amazon s3', icon: SiAmazons3 },
             { name: 'SQL', icon: FaDatabase },
-            { name: 'PowerBi', icon: TbDeviceAnalytics }
+            { name: 'PowerBi', icon: TbDeviceAnalytics },
+            { name: 'Hadoop', icon: SiApachehadoop}
         ],
         link: '/crypto-pipeline',
         description: 'The pipeline uses Apache Kafka for streaming and Apache Airflow for orchestration, following the Medallion pattern for data quality improvements. Services are containerized using Docker and integrated with a Schema Registry. Raw data is stored in Amazon S3 and loaded into Snowflake via Snowpipe for fast querying and analytics.'

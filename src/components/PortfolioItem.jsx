@@ -30,7 +30,7 @@ function PortfolioItem({ title, imgUrl, stack, link, description }) {
           {stack.map((item, index) => (
             <span
               key={index}
-              className="inline-flex items-center gap-1 px-2.5 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium rounded-md"
+              className="inline-flex items-center px-2.5 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium rounded-md"
             >
               {item.icon && React.createElement(item.icon)}
               {item.name}

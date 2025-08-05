@@ -4,7 +4,7 @@ import TechStack from "./TechStack";
 
 // Import icons from specific sets
 import { FaAws, FaPython, FaDatabase } from "react-icons/fa";
-import { SiApachekafka, SiApacheairflow, SiApacheecharts, SiSnowflake, SiPostgresql } from "react-icons/si";
+import { SiApachekafka, SiApacheairflow, SiApachehadoop, SiApacheecharts, SiSnowflake, SiPostgresql } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 
 const techItems = [
@@ -16,6 +16,7 @@ const techItems = [
   { name: "Apache Airflow", icon: SiApacheairflow },
   { name: "PySpark", icon: SiApacheecharts },
   { name: "Snowflake", icon: SiSnowflake },
+  { name: "Hadoop", icon: SiApachehadoop },
   { name: "Databases", icon: FaDatabase}
 ];
 

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import Intro from './components/Intro'
-import IntroExpanded from './components/IntroExpanded'
+// import IntroExpanded from './components/IntroExpanded'
 import Timeline from './components/Timeline'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
@@ -104,7 +104,7 @@ function App() {
                            }
                         />
                         {/* <Route id="/timeline" element={<Timeline />} /> */}
-                        <Route path="/journey" element={<IntroExpanded />} />
+                        {/* <Route path="/journey" element={<IntroExpanded />} /> */}
                         <Route path="/crypto-pipeline" element={<Crypto_currency />} />
                         <Route path="/data-analysis" element={<Data_analysis />} />
                         <Route path="/spotify-pipeline" element={<Spotify_pipeline />} />

@@ -1,9 +1,9 @@
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 import React from "react";
 // import { FaAws, SiApachekafka } from "react-icons/si";
 
 function Intro() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     return (
         <div id='intro' className="flex flex-col items-center justify-center pt-24 pb-6">
@@ -17,19 +17,19 @@ function Intro() {
             </p>
             <ul className="list-disc pl-6 mt-4">
                 <li>Started with foundational skills in <strong>Python</strong>  and <strong>SQL</strong> for scripting and data transformation.</li>
-                <li>Designed and maintained end-to-end data pipelines using <strong>Apache Airflow</strong>,<strong> Apache Kafka</strong>,  and <strong>PySpark.</strong></li>
+                <li>Designed and maintained end-to-end data pipelines using <strong>Hadoop</strong>, <strong>Apache Airflow</strong>,<strong> Apache Kafka</strong>,  and <strong>PySpark.</strong></li>
                 <li>Built real-time and batch processing workflows using Kafka, with structured topic modeling and schema evolution.</li>
                 <li>Developed and managed external stages and transformations using <strong>    SnowFlake</strong> with LATERAL FLATTEN and data lake integration.</li>
                 <li>Hands-on experience with <strong>AWS</strong> services including EC2, S3, Lambda, Glue, Athena, and Redshift for scalable cloud pipelines.</li>
                 <li>Orchestrated Dockerized environments using <strong>Docker Compose</strong> to manage Airflow, Kafka, PostgreSQL, and Schema Registry setups.</li>
                 <li>Focus on <strong>Medallion Architecture</strong> and best practices in data modeling, pipeline optimization, and governance.</li>
             </ul>
-            <span className="p-4">🧾 My Extended Data Engineering Journey
+            {/* <span className="p-4">🧾 My Extended Data Engineering Journey
                 <a onClick={() => { navigate('/journey') }}
                     className="m-1 rounded-md border-2 dark:border-white border-rose-900 cursor-pointer text-rose-900 animate-pulse dark:text-pink-400 p-1">
                     Click Me
                 </a>
-            </span>
+            </span> */}
         </div>
     );
 }

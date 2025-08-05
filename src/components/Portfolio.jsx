@@ -5,9 +5,9 @@ import Title from "./Title";
 
 function Portfolio() {
   return (
-    <section id="portfolio" className="max-w-6xl mx-auto px-4 py-5">
+    <section id="portfolio" className="max-w-6xl mx-auto pb-1">
       <Title id="portfolio">📊 Projects</Title>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-2">
         {projects.map((project, index) => (
           <PortfolioItem
             key={index}
