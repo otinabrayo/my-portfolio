@@ -76,7 +76,15 @@ function CertificatesAndCV() {
                     {/* Certificate 1 */}
                     <div className="bg-gray-100 dark:bg-gray-700 p-2 rounded-md">
                         <h3 className="font-semibold text-lg text-gray-900 dark:text-white">Oracle Autonomous Database Cloud 2025 Professional</h3>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Oracle University - Issued 2025</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">Oracle University - Issued 2025 {""}
+                            <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=643E0BADD02388F96EFD496978719CBF72F45D8F255F03D9108895FECD9E5C69"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-cyan-600 dark:text-cyan-400 hover:underline"
+                            >
+                                / Badge link
+                            </a>
+                        </p>
                         <a
                         href="certs_and_cv/OCI/Oracle Autonomous Database Cloud 2025 Professional.pdf"
                         target="_blank"
@@ -90,7 +98,15 @@ function CertificatesAndCV() {
                     {/* Certificate 2 */}
                     <div className="bg-gray-100 dark:bg-gray-700 p-2 rounded-md">
                         <h3 className="font-semibold text-lg text-gray-900 dark:text-white">Oracle Data Platform 2025 Certified Foundations Associate</h3>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Oracle University - Issued 2025</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">Oracle University - Issued 2025 {""}
+                            <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=29798D1C4092A6211959922015B55D0E1DDB3CB2A6431FE6F7D989DA232F94B2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-cyan-600 dark:text-cyan-400 hover:underline"
+                            >
+                                / Badge link
+                            </a>
+                        </p>
                         <a
                         href="certs_and_cv/OCI/Oracle Data Platform 2025 Certified Foundations Associate.pdf"
                         target="_blank"
@@ -104,7 +120,15 @@ function CertificatesAndCV() {
                     {/* Certificate 3 */}
                     <div className="bg-gray-100 dark:bg-gray-700 p-2 rounded-md">
                         <h3 className="font-semibold text-lg text-gray-900 dark:text-white">OCI 2025 Certified Foundations Associate</h3>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">Oracle University - Issued 2025</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">Oracle University - Issued 2025 {""}
+                            <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=6DDC75EBC3DD3A0B846F89F3BD5BDD2397BBADAE47F5C01081E02F4577EE4671"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-cyan-600 dark:text-cyan-400 hover:underline"
+                            >
+                                / Badge link
+                            </a>
+                        </p>
                         <a
                         href="certs_and_cv/OCI/Oracle Cloud Infrastructure 2025 Certified Foundations Associate.pdf"
                         target="_blank"
