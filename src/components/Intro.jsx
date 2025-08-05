@@ -20,7 +20,7 @@ function Intro() {
                 <li>Designed and maintained end-to-end data pipelines using <strong>Hadoop</strong>, <strong>Apache Airflow</strong>,<strong> Apache Kafka</strong>,  and <strong>PySpark.</strong></li>
                 <li>Built real-time and batch processing workflows using Kafka, with structured topic modeling and schema evolution.</li>
                 <li>Developed and managed external stages and transformations using <strong>    SnowFlake</strong> with LATERAL FLATTEN and data lake integration.</li>
-                <li>Hands-on experience with <strong>AWS</strong> services including EC2, S3, Lambda, Glue, Athena, and Redshift for scalable cloud pipelines.</li>
+                <li>Hands-on experience with <strong>Oracle Cloud</strong> , <strong>AWS</strong> services including EC2, S3, Lambda, Glue, Athena, and Redshift for scalable cloud pipelines.</li>
                 <li>Orchestrated Dockerized environments using <strong>Docker Compose</strong> to manage Airflow, Kafka, PostgreSQL, and Schema Registry setups.</li>
                 <li>Focus on <strong>Medallion Architecture</strong> and best practices in data modeling, pipeline optimization, and governance.</li>
             </ul>
