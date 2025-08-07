@@ -24,7 +24,40 @@ function Data_analysis() {
                     Back
                 </button>
 
-                {/* Project 1*/}
+                {/* Project 2 */}
+                <h1 className="text-2xl md:text-2xl font-bold mb-6 text-gray-900 dark:text-white">
+                    1. Data Warehouse and Analytics Project
+                </h1>
+
+                {/* Repo Link */}
+                <a
+                    href="https://github.com/otinabrayo/CustomerBehaviourAnalysis"
+                    target="_blank"
+                    className="text-blue-500 mb-6 animate animate-pulse hover:underline"
+                >
+                    Source Code (GitHub Repository)
+                </a>
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
+                    🚀 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+                </p>
+                <h3 className="font-semibold my-4 text-gray-900 dark:text-white">Project Overview 📖</h3>
+                <ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300 mb-10">
+                    <li> <strong>Data Architecture:</strong> Designing a Modern Data Warehouse Using <strong>Medallion Architecture</strong> i.e Bronze, Silver, and Gold layers.</li>
+                    <li> <strong>ETL Pipeline:</strong> Extracting, transforming, and loading data from source systems into the warehouse.</li>
+                    <li> <strong>Data Modelling:</strong> Developing fact and dimension tables optimized for analytical queries.</li>
+                    <li><strong>Analytics & Reporting:</strong> Creating SQL-based reports and dashboards for actionable insights.</li>
+                </ul>
+
+                {/* Architecture Diagram */}
+                <h2 className="font-semibold my-4 text-gray-900 dark:text-white">Warehousing using Mysql Server</h2>
+                <img
+                    src="assets/data_analysis/data_warehouse.jpg"
+                    alt="crypto_etl_architect"
+                    className="border rounded-2xl mb-10 cursor-pointer hover:opacity-90 transition-opacity"
+                    onClick={() => openModal("assets/data_analysis/data_warehouse.jpg")}
+                />
+
+                {/* Project 2*/}
                 <h1 className="text-2xl md:text-2xl font-bold mb-6 text-gray-900 dark:text-white">
                     1. Customer Behavior Analysis Project — Data Insights for Targeted Strategies
                 </h1>
@@ -87,40 +120,6 @@ function Data_analysis() {
                     className="border rounded-2xl cursor-pointer mb-10 hover:opacity-90 transition-opacity"
                     onClick={() => openModal("assets/data_analysis/Products_page2.jpg")}
                 />
-
-                {/* Project 2 */}
-                <h1 className="text-2xl md:text-2xl font-bold mb-6 text-gray-900 dark:text-white">
-                    2. Data Warehouse and Analytics Project
-                </h1>
-
-                {/* Repo Link */}
-                <a
-                    href="https://github.com/otinabrayo/CustomerBehaviourAnalysis"
-                    target="_blank"
-                    className="text-blue-500 mb-6 animate animate-pulse hover:underline"
-                >
-                    Source Code (GitHub Repository)
-                </a>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-                    🚀 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
-                </p>
-                <h3 className="font-semibold my-4 text-gray-900 dark:text-white">Project Overview 📖</h3>
-                <ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300 mb-10">
-                    <li> <strong>Data Architecture:</strong> Designing a Modern Data Warehouse Using <strong>Medallion Architecture</strong> i.e Bronze, Silver, and Gold layers.</li>
-                    <li> <strong>ETL Pipeline:</strong> Extracting, transforming, and loading data from source systems into the warehouse.</li>
-                    <li> <strong>Data Modelling:</strong> Developing fact and dimension tables optimized for analytical queries.</li>
-                    <li><strong>Analytics & Reporting:</strong> Creating SQL-based reports and dashboards for actionable insights.</li>
-                </ul>
-
-                {/* Architecture Diagram */}
-                <h2 className="font-semibold my-4 text-gray-900 dark:text-white">Warehousing using Mysql Server</h2>
-                <img
-                    src="assets/data_analysis/data_warehouse.jpg"
-                    alt="crypto_etl_architect"
-                    className="border rounded-2xl mb-10 cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => openModal("assets/data_analysis/data_warehouse.jpg")}
-                />
-
 
                 {/* Project 3 */}
                 <h1 className="text-2xl md:text-2xl font-bold mb-6 text-gray-900 dark:text-white">

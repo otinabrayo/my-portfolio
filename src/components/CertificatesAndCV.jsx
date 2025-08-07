@@ -19,7 +19,7 @@ function CertificatesAndCV() {
                     </p>
 
                     <a
-                    href="certs_and_cv/BrianOtinaCoverLetter.pdf"
+                    href="certs_and_cv/Cover_letter.pdf"
                     className="inline-flex items-center gap-1 px-3 mr-2 py-1 mb-4 bg-purple-600 hover:bg-purple-700 text-white rounded-full transition-colors"
                     >
                     <FaFileContract />
@@ -27,7 +27,7 @@ function CertificatesAndCV() {
                     </a>
 
                     <a
-                    href="certs_and_cv/BrianOtinaCoverLetter.pdf"
+                    href="certs_and_cv/Cover_letter.pdf"
                     download
                     className="inline-flex items-center gap-1 px-3 py-1 bg-purple-600 hover:bg-purple-700 text-white rounded-full transition-colors"
                     >
@@ -46,7 +46,7 @@ function CertificatesAndCV() {
                     </p>
 
                     <a
-                    href="certs_and_cv/resume_DataAnalyst.pdf"
+                    href="certs_and_cv/Brian_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 px-3 mr-2 py-1 bg-purple-600 hover:bg-purple-700 text-white rounded-full transition-colors"
@@ -56,7 +56,7 @@ function CertificatesAndCV() {
                     </a>
 
                     <a
-                    href="certs_and_cv/resume_DataAnalyst.pdf"
+                    href="certs_and_cv/Brian_Resume.pdf"
                     download
                     className="inline-flex items-center gap-1 px-3 py-1 bg-purple-600 hover:bg-purple-700 text-white rounded-full transition-colors"
                     >
